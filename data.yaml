@@ -1,0 +1,13 @@
+train: /home/eunjikim22/workspace/traffic_project/datasets/train/images
+val: /home/eunjikim22/workspace/traffic_project/datasets/valid/images
+test: /home/eunjikim22/workspace/traffic_project/datasets/test/images
+
+nc: 1
+names: ['crosswalk']
+
+roboflow:
+  workspace: halla-team
+  project: crosswalk-qngrc
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/halla-team/crosswalk-qngrc/dataset/3
